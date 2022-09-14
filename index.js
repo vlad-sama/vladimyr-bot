@@ -148,6 +148,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
             
                 if (anu.action == 'add') {
                 let WAuserName = num
+		if (metadata.subject = "🔳 MANGA▫️ZONE 🔳") {
                 mikutext = `
 Hello @${WAuserName.split("@")[0]} !
 
@@ -175,6 +176,33 @@ _Produced By : Pelpav_
     button: buttons,
     headerType: 4,
     }
+    else {
+	    mikutext = `
+Hello @${WAuserName.split("@")[0]} !
+
+Salut @${WAuserName.split("@")[0]} !
+
+Je suis *Lelouch Vi Britannia*, Bienvenue sur ${metadata.subject}.
+
+*Description de ${metadata.subject}:*
+
+${metadata.desc}
+
+_Produced By : Pelpav_
+`
+   let buttons = [
+{buttonId: `wkwwk`, buttonText: {displayText: 'Bienvenue 🤖'}, type: 1}
+]
+   
+    let buttonMessage = {
+    image: await getBuffer(ppgroup),
+    mentions: [num],
+    caption: mikutext,
+    footer: `${global.BotName}`,
+    button: buttons,
+    headerType: 4,
+    }
+ }
 Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
