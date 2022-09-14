@@ -148,7 +148,8 @@ Miku.ev.on('group-participants.update', async (anu) => {
             
                 if (anu.action == 'add') {
                 let WAuserName = num
-		if (metadata.subject = "🔳 MANGA▫️ZONE 🔳") {
+		switch (metadata.subject) {
+			case "🔳 MANGA▫️ZONE 🔳": {
                 mikutext = `
 Hello @${WAuserName.split("@")[0]} !
 
@@ -176,7 +177,7 @@ _Produced By : Pelpav_
     button: buttons,
     headerType: 4,
     }
-    if {
+    default: {
 	    mikutext = `
 Hello @${WAuserName.split("@")[0]} !
 
