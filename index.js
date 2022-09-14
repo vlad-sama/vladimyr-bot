@@ -176,7 +176,7 @@ _Produced By : Pelpav_
     button: buttons,
     headerType: 4,
     }
-    else {
+    if {
 	    mikutext = `
 Hello @${WAuserName.split("@")[0]} !
 
