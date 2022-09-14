@@ -5946,7 +5946,7 @@ Ohh i see 👀💖...`;
           "send abusive words in any grup, excepting this grup, and send screenshot proof here",
         ];
         const Mikudareww = dare[Math.floor(Math.random() * dare.length)];
-        buffer = await getBuffer(`https://wallpapercave.com/wp/wp10524609.jpg`);
+        buffer = await getBuffer(`https://thumbs.gfycat.com/FrankCluelessIvorygull-size_restricted.gif`);
         Miku.sendMessage(
           from,
           { image: buffer, caption: "*You have chosen Dare*\n\n" + Mikudareww },
@@ -6049,7 +6049,7 @@ Ohh i see 👀💖...`;
           "do you play pubg, if you then send ur id number",
         ];
         const mikutruthww = truth[Math.floor(Math.random() * truth.length)];
-        buffer = await getBuffer(`https://wallpapercave.com/wp/wp10524609.jpg`);
+        buffer = await getBuffer(`https://i.pinimg.com/originals/58/c4/b6/58c4b6a5eb589e6e1cdd0ad6b49c662d.gif`);
         Miku.sendMessage(
           from,
           { image: buffer, caption: "*You have chosen Truth*\n" + mikutruthww },
@@ -7205,7 +7205,7 @@ break
           if (isBan) return reply(mess.banned);
           if (isBanChat) return reply(mess.bangc);
 
-          const helpmenu = `Konichiwa *${pushname}* Senpai,
+          const helpmenu = `Yo *${pushname}*,
 
 Je suis *Lelouch* un bot crée par mon magnifique proprio *Pelpav*
 
