@@ -149,14 +149,19 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 let WAuserName = num
                 mikutext = `
-Hello @${WAuserName.split("@")[0]},
+Hello @${WAuserName.split("@")[0]} !
 
 Salut @${WAuserName.split("@")[0]} !
 
 Je suis *Lelouch Vi Britannia*, Bienvenue sur ${metadata.subject}.
 
+Parle nous un peu de ton TOP 5 Anime/Manga mais avant tout n'hésite pas à lire la description ci dessous 👇👇
+
 *Description de ${metadata.subject}:*
+
 ${metadata.desc}
+
+_Produced By : Pelpav_
 `
    let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Bienvenue 🤖'}, type: 1}
