@@ -1,0 +1,30 @@
+{
+  "name": "lelouch",
+  "description": "A whatsApp bot based on Baileys linrary with Multi Device support",
+  "repository": "https://github.com/Pelpav/lelouch",
+  "logo": "https://images.wallpapersden.com/image/download/code-geass-lelouch-lamperouge-anime_a2dqbpSZmpqtpaSklGhtaWWtZ2ZrZQ.jpg",
+  "keywords": [
+    "nodejs",
+    "bot",
+    "whatsapp bot",
+    "whatsapp automation",
+    "multi device"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
