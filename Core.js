@@ -3733,7 +3733,7 @@ case 'delete': case 'del': {
             ? m.mentionedJid[0]
             : m.quoted
             ? m.quoted.sender
-            : text.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
+            : text.replace(/[^0-9]/g, "") + "est maintenant administrateur";
           await Miku.groupParticipantsUpdate(m.chat, [users], "promote")
             .then((res) => replay(jsonformat(res)))
             .catch((err) => replay(jsonformat(err)));
@@ -3751,7 +3751,7 @@ case 'delete': case 'del': {
             ? m.mentionedJid[0]
             : m.quoted
             ? m.quoted.sender
-            : text.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
+            : text.replace(/[^0-9]/g, "") + "n'est plus administrateur";
           await Miku.groupParticipantsUpdate(m.chat, [users], "demote")
             .then((res) => replay(jsonformat(res)))
             .catch((err) => replay(jsonformat(err)));
