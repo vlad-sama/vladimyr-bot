@@ -6,7 +6,7 @@ global.autoReadGc = true;
 global.autoReadAll = false;
 global.antitags = true;
 
-global.Owner = ["22374429996"];
+global.Owner = ["22374429996" || "22368749536];
 global.OwnerNumber = ["22374429996"];
 global.ownertag = ["22374429996"];
 global.BotName = "Lelouch";
@@ -27,7 +27,7 @@ global.themeemoji = "💖";
 global.vidmenu = {
   url: "https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4",
 };
-global.websitex = "https://github.com/FantoX001";
+global.websitex = "https://github.com/Pelpav";
 global.lolhuman = "KaysaS";
 
 global.BotLogo = fs.readFileSync("./Assets/pic9.jpg");
