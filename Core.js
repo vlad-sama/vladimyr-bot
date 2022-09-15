@@ -5718,6 +5718,13 @@ Ohh i see 👀💖...`;
       case "prettycheck":
       case "lovelycheck":
       case "uglycheck":
+      case "racistcheck":
+	    case "funnycheck":
+	    case "loyalcheck":
+	    case "sexycheck":
+	    case "evilcheck":
+	    case "kindcheck":
+	    case "weebcheck":
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!text)
