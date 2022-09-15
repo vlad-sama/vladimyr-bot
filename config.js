@@ -6,7 +6,7 @@ global.autoReadGc = true;
 global.autoReadAll = false;
 global.antitags = true;
 
-global.Owner = ["22374429996" || "22368749536];
+global.Owner = ["22374429996" || "22368749536"];
 global.OwnerNumber = ["22374429996"];
 global.ownertag = ["22374429996"];
 global.BotName = "Lelouch";
