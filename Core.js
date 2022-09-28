@@ -7214,7 +7214,7 @@ break
 
           const helpmenu = `Yo *${pushname}*,
 
-Je suis *Lelouch* un bot crée par mon magnifique proprio *Pelpav*
+Je suis *Vlad-bot* un bot crée par mon magnifique proprio *Vladimyr*
 
 ┌───『 𝓗𝓪𝓷𝓭𝓸𝓾𝓽 』──
 │⊶ Utilise ${prefix}help pour voir les commandes
@@ -7500,7 +7500,7 @@ Je suis *Lelouch* un bot crée par mon magnifique proprio *Pelpav*
 
           mikupic = "https://images.alphacoders.com/634/thumb-1920-634235.jpg";
 
-          const needhelpmenu = `Tu as besoin d'aide ${pushname} Shinemonoga ? Ecris *${prefix}help* pour obtenir la liste complète de mes commandes.`;
+          const needhelpmenu = `Tu as besoin d'aide ${pushname} ? Ecris *${prefix}help* pour obtenir la liste complète de mes commandes.`;
 
           let butRun = [
             { buttonId: `-help`, buttonText: { displayText: "Aide" }, type: 1 },
