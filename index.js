@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Lelouch', {
+console.log(color(figlet.textSync('vladimyr', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -26,8 +26,8 @@ console.log(color(figlet.textSync('Lelouch', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Pelpav, the main developer of this bot.\n\nThanks for using: Lelouch Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Pelpav','aqua'))
+console.log(color('\nHello, I am VLADIMYR FOKA, the main developer of this bot.\n\nThanks for using: vladimyr Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub: vlad-sama','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
