@@ -25,7 +25,7 @@ global.location = "West Bengal, India";
 global.reactmoji = "❤️";
 global.themeemoji = "💖";
 global.vidmenu = {
-  url: "https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4",
+  url: "https://th.bing.com/th/id/R.18031cd0dec9583353b04b93348a6b4f?rik=%2fFUkbD6kJUhW0Q&pid=ImgRaw&r=0.mp4",
 };
 global.websitex = "https://github.com/vlad-sama";
 global.lolhuman = "KaysaS";
