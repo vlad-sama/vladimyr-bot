@@ -7214,7 +7214,7 @@ break
 
           const helpmenu = `Yo *${pushname}*,
 
-Je suis *Vlad-bot* un bot crée par mon magnifique proprio *Vladimyr*
+Je suis *vlad-bot* un bot crée par le genie *vladimyr*
 
 ┌───『 𝓗𝓪𝓷𝓭𝓸𝓾𝓽 』──
 │⊶ Utilise ${prefix}help pour voir les commandes
@@ -7444,7 +7444,7 @@ Je suis *Vlad-bot* un bot crée par mon magnifique proprio *Vladimyr*
 ╚════════════╝
 ╔════⧫😜Fun add😜
 ║
-║ ${prefix}lelouch
+║ ${prefix}vladimyr
 ║ ${prefix}rules 
 ║
 ╚════════════╝
@@ -7466,13 +7466,13 @@ Je suis *Vlad-bot* un bot crée par mon magnifique proprio *Vladimyr*
 ║  🍑 Puis " *${prefix}nsfwmenu* " pour obtenir la liste complète des commandes NSFW.
 ╚════════════╝
  『  *${global.BotName}*  』
- Produit par: *Pelpav*
+ Produit par: *vladimyrFoka*
  🎐 Pour utiliser l'une de ces commandes, tapez " *${prefix}<Command name>* ".
  
  🎐 Pour obtenir le type de lien du groupe de support" *${prefix}support* ".
  🎐 Ecris " *${prefix}help* " pour obtenir la liste complète des commandes.
  
-   J'ai détruit le monde, pour pouvoir en créer un nouveau... `;
+   La haine est un sentiment non lucratif `;
 
           let buttonshelpm = [
             {
