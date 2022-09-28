@@ -7498,7 +7498,7 @@ Je suis *vlad-bot* un bot crée par le genie *vladimyr*
           if (isBan) return reply(mess.banned);
           if (isBanChat) return reply(mess.bangc);
 
-          mikupic = "https://images.alphacoders.com/634/thumb-1920-634235.jpg";
+          mikupic = "https://th.bing.com/th/id/R.9076637c0f89a95dafe2599c4d928065?rik=WR0WtZvK3ue18Q&pid=ImgRaw&r=0.jpg";
 
           const needhelpmenu = `Tu as besoin d'aide ${pushname} ? Ecris *${prefix}help* pour obtenir la liste complète de mes commandes.`;
 
