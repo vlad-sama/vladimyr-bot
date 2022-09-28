@@ -13,8 +13,8 @@ global.BotName = "VLADIMYR-BOT";
 global.packname = "VLADIMYR";
 global.author = "";
 global.OwnerName = "VLADIMYRFOKA";
-global.BotSourceCode = "https://github.com/Pelpav/Lelouch";
-global.SupportGroupLink = "https://chat.whatsapp.com/IroP01WmdScH5DSN9pY7C4";
+global.BotSourceCode = "https://github.com/vlad-sama/vladimyr-bot";
+global.SupportGroupLink = "https://chat.whatsapp.com/HiHuFq6hCIB3PiRCqYgsNN";
 global.sessionName = "session";
 
 // Prefix //
