@@ -133,13 +133,13 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppuser = await Miku.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://i.pinimg.com/736x/5a/03/f8/5a03f83eeeab05210db52331d971cb51.jpg'
+                    ppuser = 'azashiro.jpg'
                 }
 
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://i.pinimg.com/736x/5a/03/f8/5a03f83eeeab05210db52331d971cb51.jpg'
+                    ppgroup = 'azashiro.jpg'
                 }
 
                 let targetname = await Miku.getName(num)
@@ -162,7 +162,7 @@ Parle nous de tes activités favorites mais avant tout n'hésite pas à lire la 
 
 ${metadata.desc}
 
-_Produced By : Pelpav_
+_Produced By : vladimyr_
 `
    let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Bienvenue 🤖'}, type: 1}
