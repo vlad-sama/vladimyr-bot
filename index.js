@@ -154,9 +154,9 @@ Hello @${WAuserName.split("@")[0]} !
 
 Salut @${WAuserName.split("@")[0]} !
 
-Je suis *Vladimyr Foka*, Bienvenue sur ${metadata.subject}.
+Je suis *vlad-bot*, Bienvenue sur ${metadata.subject}.
 
-Parle nous de tes activités favorites mais avant tout n'hésite pas à lire la description ci dessous 👇👇
+Veille bien à demander le règlement du groupe
 
 *Description de ${metadata.subject}:*
 
@@ -182,7 +182,7 @@ Miku.sendMessage(anu.id, buttonMessage)
                     mikutext = `
 Aurevoir @${WAuserName.split("@")[0]}👋.
 
-vladimyr te souhaite un bon séjour dans la brousse, tu ne nous manquera surement pas !
+je te souhaite un bon séjour dans la brousse, tu ne nous manquera surement pas
                   `
    let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText: 'Aurevoir 👋'}, type: 1}
