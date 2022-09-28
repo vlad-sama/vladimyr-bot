@@ -19,7 +19,7 @@ global.sessionName = "session";
 
 // Prefix //
 // If you want to change the prefix, change it and also change all switch's button id from Core.js  otherwise buttons will not work //
-global.prefa = ["-"];
+global.prefa = ["$"];
 
 global.location = "West Bengal, India";
 global.reactmoji = "❤️";
@@ -27,7 +27,7 @@ global.themeemoji = "💖";
 global.vidmenu = {
   url: "https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4",
 };
-global.websitex = "https://github.com/Pelpav";
+global.websitex = "https://github.com/vlad-sama";
 global.lolhuman = "KaysaS";
 
 global.BotLogo = fs.readFileSync("./Assets/pic9.jpg");
