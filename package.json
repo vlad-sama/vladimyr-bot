@@ -1,6 +1,6 @@
 {
-  "name": "lelouch",
-  "description": "Bot de Pelpav",
+  "name": "vladimyr",
+  "description": "Bot de vladimyr",
   "version": "3.0.0",
   "main": "index.js",
   "type": "commonjs",
@@ -18,7 +18,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "Pelpav (Pelpav)",
+  "author": "vladimyr (vladimyr)",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.3.0",
