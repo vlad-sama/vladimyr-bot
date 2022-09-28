@@ -33,7 +33,7 @@ console.log(color('\nYou can follow me on GitHub: Pelpav','aqua'))
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Lelouch by: Pelpav','Safari','1.0.0'],
+        browser: ['vladimyr-bot by: vladimyr','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -154,9 +154,9 @@ Hello @${WAuserName.split("@")[0]} !
 
 Salut @${WAuserName.split("@")[0]} !
 
-Je suis *Lelouch Vi Britannia*, Bienvenue sur ${metadata.subject}.
+Je suis *Vladimyr Foka*, Bienvenue sur ${metadata.subject}.
 
-Parle nous un peu de ton TOP 5 Anime/Manga mais avant tout n'hésite pas à lire la description ci dessous 👇👇
+Parle nous de tes activités favorites mais avant tout n'hésite pas à lire la description ci dessous 👇👇
 
 *Description de ${metadata.subject}:*
 
@@ -182,7 +182,7 @@ Miku.sendMessage(anu.id, buttonMessage)
                     mikutext = `
 Aurevoir @${WAuserName.split("@")[0]}👋.
 
-J'espère que vous reviendrez bientôt, mais vous ne nous manquerez pas pour autant !
+vladimyr te souhaite un bon séjour dans la brousse, tu ne nous manquera surement pas !
                   `
    let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText: 'Aurevoir 👋'}, type: 1}
