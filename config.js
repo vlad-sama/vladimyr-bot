@@ -19,7 +19,7 @@ global.sessionName = "session";
 
 // Prefix //
 // If you want to change the prefix, change it and also change all switch's button id from Core.js  otherwise buttons will not work //
-global.prefa = ["$"];
+global.prefa = ["/"];
 
 global.location = "West Bengal, India";
 global.reactmoji = "❤️";
@@ -30,10 +30,10 @@ global.vidmenu = {
 global.websitex = "https://github.com/vlad-sama";
 global.lolhuman = "KaysaS";
 
-global.BotLogo = fs.readFileSync("./Assets/pic9.jpg");
-global.Thumb = fs.readFileSync("./Assets/pic2.jpg");
-global.Thumb1 = fs.readFileSync("./Assets/pic4.jpg");
-global.ErrorPic = fs.readFileSync("./Assets/pic6.jpg");
+global.BotLogo = fs.readFileSync("");
+global.Thumb = fs.readFileSync("");
+global.Thumb1 = fs.readFileSync("");
+global.ErrorPic = fs.readFileSync("");
 
 global.ntilinkytvid = [];
 global.ntilinkytch = [];
@@ -63,7 +63,7 @@ global.mess = {
     grouponly: 'This command is only made for *Groups*, Baka!',
     privateonly: 'This command is only made for *Private Chat*, Baka!',
     botonly: 'Only the *Bot itself* can use this command!',
-    waiting: 'Chotto Matte...',
+    waiting: 'veuillez patienter...',
     nolink: 'Please provide me *link*, Baka!',
     error: 'An error occurd!',
     banned: 'You are *Banned* fron using commands!',
@@ -73,22 +73,22 @@ global.mess = {
 }
 */
 global.mess = {
-  jobdone: "Fait !...",
+  jobdone: "Fait ! je suis fier de moi et de mon createur...",
   useradmin:
-    "Désolé, seuls les *administrateurs de groupe* peuvent utiliser cette commande **Baka** !",
+    "Désolé, seuls les *administrateurs de groupe* peuvent utiliser cette commande **Baka Baka** !",
   botadmin:
-    "Désolé, je ne peux pas exécuter cette commande sans être *Admin* de ce groupe.",
-  botowner: "Seul mon *Propriétaire* peut utiliser cette commande, *Baka* !",
-  grouponly: "Cette commande n'est faite que pour les *Groupes*, *Baka* !",
-  privateonly: "Cette commande n'est faite que pour *Private Chat*, *Baka* !",
+    "chien, je peux pas exécuter cette commande sans être *Admin* de ce groupe.",
+  botowner: "Seul mon *Propriétaire* peut utiliser cette commande, *chien pd* !",
+  grouponly: "Cette commande n'est faite que pour les *Groupes*, *chien pd* !",
+  privateonly: "Cette commande n'est faite que pour *Private Chat*, *pd* !",
   botonly: "Seul le *Bot lui-même* peut utiliser cette commande !",
-  waiting: "Chotto Matte...",
-  nolink: "Veuillez me fournir *lien*, *Baka* !",
+  waiting: "veuillez patienter, je refléchis...",
+  nolink: "Veuillez me fournir *lien*, *chien* !",
   error: "Une erreur s'est produite !",
   banned: "Vous êtes *Banni* d'utiliser des commandes !",
   bangc: "Ce groupe est *interdit* d'utiliser les commandes !",
   nonsfw:
-    "Ne sois pas un pervers *Baka* ! Ce n'est pas un groupe activé NSFW !",
+    "Ne sois pas un pervers *chien pd* ! Ce n'est pas un groupe activé NSFW !",
 };
 
 global.limitawal = {
