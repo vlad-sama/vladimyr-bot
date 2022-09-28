@@ -25,7 +25,7 @@ global.location = "West Bengal, India";
 global.reactmoji = "❤️";
 global.themeemoji = "💖";
 global.vidmenu = {
-  url: "https://th.bing.com/th/id/R.18031cd0dec9583353b04b93348a6b4f?rik=%2fFUkbD6kJUhW0Q&pid=ImgRaw&r=0.mp4",
+  url: "https://www.youtube.com/watch?v=z6vhQ6IDREs.mp4",
 };
 global.websitex = "https://github.com/vlad-sama";
 global.lolhuman = "KaysaS";
