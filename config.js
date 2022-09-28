@@ -30,10 +30,10 @@ global.vidmenu = {
 global.websitex = "https://github.com/vlad-sama";
 global.lolhuman = "KaysaS";
 
-global.BotLogo = fs.readFileSync("./Assets/pic9.jpg");
-global.Thumb = fs.readFileSync("./Assets/pic2.jpg");
-global.Thumb1 = fs.readFileSync("./Assets/pic4.jpg");
-global.ErrorPic = fs.readFileSync("./Assets/pic6.jpg");
+global.BotLogo = fs.readFileSync("./Assets/azashiro.jpg");
+global.Thumb = fs.readFileSync("./Assets/azashiro.jpg");
+global.Thumb1 = fs.readFileSync("./Assets/azashiro.jpg");
+global.ErrorPic = fs.readFileSync("./Assets/azashiro.jpg");
 
 global.ntilinkytvid = [];
 global.ntilinkytch = [];
